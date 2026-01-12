@@ -1,34 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Profil Saya</title>
-    <link rel="stylesheet" href="style.scc">
+  <meta charset="UTF-8">
+  <title>PinkBeauty - Makeup Store</title>
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Profil Pribadi</h1>
+<header class="navbar">
+  <h1 class="logo">PinkBeauty</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#blog">Blog</a>
+  </nav>
+</header>
 
-    <p><b>Nama:</b> Aprianti Nurul Sastika</p>
-    <p><b>Status:</b> Mahasiswa</p>
-    <p><b>Domisili:</b> Indonesia</p>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Temukan Makeup Impianmu<br>dengan Sentuhan Pink</h2>
+    <p>Feminin • Clean • Elegan • Terjangkau</p>
+    <button class="btn-primary">Belanja Sekarang</button>
+  </div>
 
-    <h2>Tentang Saya</h2>
-    <p>
-        Saya adalah mahasiswa yang sedang belajar pemrograman
-        dan pengembangan website.
-    </p>
+  <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=600" alt="Makeup Model">
+</section>
 
-    <h2>Keahlian</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Java (Dasar)</li>
-        <li>Python (Dasar)</li>
-    </ul>
+<!-- KATEGORI -->
+<section class="category">
+  <h3>Kategori Favorit</h3>
+  <div class="category-list">
+    <div class="cat-card">💄 Lipstick</div>
+    <div class="cat-card">🧴 Foundation</div>
+    <div class="cat-card">🎨 Eyeshadow</div>
+    <div class="cat-card">🌸 Blush On</div>
+    <div class="cat-card">🎁 Bundle Set</div>
+  </div>
+</section>
 
-    <h2>Kontak</h2>
-    <p>Email: aprianti@email.com</p>
+<!-- PRODUK -->
+<section id="shop" class="shop">
+  <h3>Produk Terlaris</h3>
 
-    <script src="script.js"></script>
+  <div class="product-slider">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?q=80&w=400">
+      <h4>Rose Velvet Lipstick</h4>
+      <p>Rp 89.000</p>
+      <button>Tambah ke Keranjang</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=400">
+      <h4>Baby Pink Blush</h4>
+      <p>Rp 75.000</p>
+      <button>Tambah ke Keranjang</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1625093742435-6fa192b6c9b9?q=80&w=400">
+      <h4>Soft Glam Eyeshadow</h4>
+      <p>Rp 120.000</p>
+      <button>Tambah ke Keranjang</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section class="testimonial">
+  <h3>Apa Kata Mereka?</h3>
+  <div class="testi-box">
+    <p>"Packaging cantik, warnanya lembut dan tahan lama 💕"</p>
+    <span>- april
+    </span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h3>Tentang Kami</h3>
+  <p>
+    PinkBeauty hadir untuk menemani perempuan tampil percaya diri
+    dengan makeup yang aman, feminin, dan terjangkau.
+  </p>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="blog">
+  <h3>Beauty Blog</h3>
+
+  <div class="blog-card">
+    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=500">
+    <h4>Look of The Day: Soft Pink Glam</h4>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 PinkBeauty. All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

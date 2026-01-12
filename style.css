@@ -1,32 +1,96 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fff5f8;
+  color: #4a2c3a;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
 }
 
-p {
-    text-align: center;
-    font-size: 16px;
+.logo {
+  font-family: 'Playfair Display', serif;
+  color: #d96c9f;
 }
 
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #a65c7a;
 }
 
-button:hover {
-    background-color: #2980b9;
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  background: linear-gradient(#ffe3ec, #fff);
 }
-    
+
+.hero-text h2 {
+  font-family: 'Playfair Display';
+  font-size: 36px;
+}
+
+.btn-primary {
+  background: #d96c9f;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.category, .shop, .testimonial, .about, .blog {
+  padding: 60px;
+  text-align: center;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.product-slider {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(217,108,159,0.3);
+}
+
+.product-card button {
+  background: #f2a7c6;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 20px;
+  background: #f8cddd;
+  text-align: center;
+}
+
+
